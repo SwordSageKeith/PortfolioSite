@@ -9,6 +9,7 @@ body {
   color: #444;
   text-align: center;
   line-height: 1.5;
+  background-image: linear-gradient(135deg, #1e00f9 0%, #005FF9 40%, #00dbf9 70%);
 }
 
 nav,
@@ -23,6 +24,15 @@ nav {
   left: 0;
   right: 0;
   z-index: 10;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navi{
+  border: #1e00f9 solid 2px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 15px;
 }
 
 h1{
@@ -90,8 +100,13 @@ h2{
     margin-right: auto;
   }
   section{
-    padding: 100px;
+    padding: 50px;
     flex-grow: 1;
   }
-
+  .navi{
+    border: #1e00f9 solid 2px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+  }
 }

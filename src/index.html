@@ -7,24 +7,28 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <nav role="navigation">Nav</nav>
+    <nav role="navigation">
+      <div class = "home navi">Home</div>
+      <div class = "aboutme navi">About Me</div>
+      <div class = "contactme navi">Contact Me</div>
+    </nav>
     <main role="main">
         <header role="banner">
             <img class = "portrait" src = "images/Keith.png">
             <h1>Keith Prince</h1>
         </header>
 
-        <section>
+        <section class = "pkmnquiz">
           <h2>Pokemon Quiz</h2>
           <p>Test your Pokemon knowledge! Can you identify any of 386 Pokemon by their sihlouette?</p>
         </section>
 
-        <section>
+        <section class = "aboutme">
           <h2>About Me</h2>
           <p>I'm Keith, a fullstack developer and game programmer</p>
         </section>
 
-        <section>
+        <section class = "modeling">
           <h2>3D Modeling</h2>
           <p>Yup! I have done some 3D modeling for games as well as for printing!</p>
         </section>
@@ -38,5 +42,8 @@
         </section>
     </main>
     <footer role="content-info">Footer</footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="eventHandlers.js"></script>
+    <script src = "index.js"></script>
 </body>
 </html>
