@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  color: #B55400;
+  color: #EEEEEE;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 nav,
 footer {
   padding: 1% 0;
-  background-color: #393E46;
+  background-color: #B55400;
 }
 
 nav {
@@ -26,12 +26,10 @@ nav {
   right: 0;
   z-index: 10;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
 }
 
 .navi{
-  border: solid #EEEEEE 2px;
-  border-radius: 10px;
   padding-left: 15px;
   padding-right: 15px;
   font-size: 18px;
@@ -41,6 +39,7 @@ h1{
   margin-top: auto;
   margin-bottom: auto;
   font-size: 30px;
+  
 }
 main {
   display: inline;
@@ -52,17 +51,14 @@ header {
   width: 100%;
   display: flex;
   text-align: center;
-  
 }
 
 section {
-  border: #EEEEEE solid 8px;
-  border-radius: 30px;
+  border: #B55400 solid 4px;
   min-height: 200px;
   padding: 6% 0;
   min-width: 300px;
   background-color: #393E46;
-  text-shadow: #222831 2px 2px 1px;
 }
 
 .portrait{
@@ -71,12 +67,32 @@ section {
 
 h2{
   margin: 0px;
+  color: #222831;
+}
+.pkmnquiz{
+  background-image: url('images/pokemon.png');
+  background-position-y: -250px;
+}
+section.aboutme{
+  background-color: #9804EC;
+}
+.whiteText{
+  color: #EEEEEE;
+}
+p{
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  color:#222831;
 }
 
 @media screen and (min-width: 700px){
   /*tablet size*/
   .portrait{
     max-width: 350px;
+  }
+  .pkmnquiz{
+    background-position-y: -100px;
   }
   header{
     display: flex;
@@ -96,16 +112,13 @@ h2{
   }
   p{
     font-size: 35px;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
   }
   section{
     padding: 25px;
     flex-grow: 1;
+    margin: 5px;
   }
   .navi{
-    border: #EEEEEE solid 2px;
     padding-left: 50px;
     padding-right: 50px;
     font-size: 20px;
