@@ -86,6 +86,17 @@ p{
 .left{
   text-align: center;
 }
+.contact{
+  display: block;
+}
+.item{
+  padding: 10px;
+  height: 50px;
+}
+.items{
+  padding: 10px;
+  height: 50px;
+}
 
 @media screen and (min-width: 800px){
   header{
@@ -130,5 +141,22 @@ p{
   }
   .fam{
     width: 80%;
+  }
+  .contact{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .icon{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .item{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 200px;
+  }
+  .items{
+    padding: 20px;
+    height: 200px;
   }
 }

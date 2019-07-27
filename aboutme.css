@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  color: #EEEEEE;
+  font-family: 'Josefin Sans', sans-serif;
+}
+body {
+  font-family: "Open Sans",
+  sans-serif; 
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+  background-color: #222831;
+}
+nav,
+footer {
+  padding: 1% 0;
+  background-color: #46196B;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: flex-end;
+}
+.navi{
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 18px;
+}
+h1{
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 30px;
+  font-family: 'Atomic Age', cursive;
+  
+}
+main {
+  display: inline;
+}
+header {
+  padding: 8% 0;
+  padding-bottom: 4%;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+section {
+  /*border: #EEEEEE solid 4px;*/
+  min-height: 200px;
+  padding: 6% 0;
+  min-width: 300px;
+  background-color: #6369D1;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.navi:hover{
+  background-color: #222831;
+}
+h2{
+  margin: 0px;
+  padding: 10px;
+  color: #EEEEEE;
+  font-family: 'Russo One', sans-serif;
+}
+h3{
+  font-weight: normal;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.whiteText{
+  color: #EEEEEE;
+  text-shadow: #222831 2px 2px;
+}
+p{
+  padding: 10px;
+  color:#EEEEEE;
+  margin: 0px;
+}
+.fam{
+  width: 90%;
+}
+.left{
+  text-align: center;
+}
+.contact{
+  display: block;
+}
+.item{
+  padding: 10px;
+  height: 50px;
+}
+.items{
+  padding: 10px;
+  height: 50px;
+}
+
+@media screen and (min-width: 800px){
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    text-align: left;
+  }
+  h1{
+    padding:  20px;
+    font-size: 55px;
+  }
+  h3{
+    padding-left:  20px;
+  }
+  main{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  h2{
+    font-size: 42px;
+    padding: 20px;
+  }
+  p{
+    font-size: 28px;
+    padding: 20px;
+  }
+  section{
+    padding: 25px;
+    flex-grow: 1;
+    margin: 5px;
+  }
+  .navi{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+  }
+  .left{
+    max-width: 50%;
+    min-width: 45%;
+  }
+  .fam{
+    width: 80%;
+  }
+  .contact{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .icon{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .item{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 200px;
+  }
+  .items{
+    padding: 20px;
+    height: 200px;
+  }
+}
