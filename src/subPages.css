@@ -7,6 +7,7 @@
 }
 .item{
   color: #222831;
+  padding: 10px;
 }
 .pkmn{
   width: 140px;
@@ -15,6 +16,8 @@
   margin-right: 15px;
   background-color: #222831;
   font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .seeProject{
   justify-content: center;

@@ -3,7 +3,6 @@
   color: #EEEEEE;
   font-family: 'Josefin Sans', sans-serif;
 }
-
 body {
   font-family: "Open Sans",
   sans-serif; 
@@ -12,13 +11,11 @@ body {
   line-height: 1.5;
   background-color: #222831;
 }
-
 nav,
 footer {
   padding: 1% 0;
   background-color: #46196B;
 }
-
 nav {
   position: fixed;
   top: 0;
@@ -28,13 +25,11 @@ nav {
   display: flex;
   justify-content: flex-end;
 }
-
 .navi{
   padding-left: 15px;
   padding-right: 15px;
   font-size: 18px;
 }
-
 h1{
   margin-top: auto;
   margin-bottom: auto;
@@ -45,7 +40,6 @@ h1{
 main {
   display: inline;
 }
-
 header {
   padding: 8% 0;
   padding-bottom: 4%;
@@ -55,7 +49,6 @@ header {
   flex-wrap: wrap;
   justify-content: center;
 }
-
 section {
   /*border: #EEEEEE solid 4px;*/
   min-height: 200px;
@@ -65,68 +58,36 @@ section {
   margin-top: 3px;
   margin-bottom: 3px;
 }
-.link:hover{
-  box-shadow: 0px 0px 4px 6px #60E1E0;
-}
 .navi:hover{
   background-color: #222831;
 }
-a:hover{
-  color: #222831;
-}
-
-.portrait{
-  width: 50%;
-  border-radius: 50%;
-}
-
 h2{
   margin: 0px;
-  color: #222831;
+  padding: 10px;
+  color: #EEEEEE;
   font-family: 'Russo One', sans-serif;
 }
 h3{
   font-weight: normal;
   font-family: 'Josefin Sans', sans-serif;
 }
-.pkmnquiz{
-  background-image: url('images/pokemon.png');
-  background-position-y: -250px;
-}
 .whiteText{
   color: #EEEEEE;
   text-shadow: #222831 2px 2px;
 }
 p{
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  color:#222831;
+  padding: 10px;
+  color:#EEEEEE;
+  margin: 0px;
 }
-.modeling{
-  background-image: url("images/dragonRender2.png");
-  background-size: cover;
-  background-position-x: right;
-  background-position-y: top;
+.fam{
+  width: 90%;
 }
-.smallOnly{
-  display: inherit;
-  margin-left: auto;
-  margin-right: auto;
-  width: 200px;
-  height: 60px;
-  color: #EEEEEE;
-  background-color: #222831;
+.left{
+  text-align: center;
 }
 
 @media screen and (min-width: 800px){
-  /*tablet size*/
-  .portrait{
-    max-width: 350px;
-  }
-  .pkmnquiz{
-    background-position-y: -100px;
-  }
   header{
     display: flex;
     flex-direction: row;
@@ -147,9 +108,11 @@ p{
   }
   h2{
     font-size: 42px;
+    padding: 20px;
   }
   p{
-    font-size: 35px;
+    font-size: 28px;
+    padding: 20px;
   }
   section{
     padding: 25px;
@@ -161,10 +124,11 @@ p{
     padding-right: 50px;
     font-size: 20px;
   }
-  .modeling{
-    background-position-y: -100px;
+  .left{
+    max-width: 50%;
+    min-width: 45%;
   }
-  .smallOnly{
-    display: none;
+  .fam{
+    width: 80%;
   }
 }
