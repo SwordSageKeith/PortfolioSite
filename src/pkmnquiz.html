@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="subPages.css">
 </head>
 <body>
     <nav role="navigation">
@@ -14,13 +15,23 @@
     </nav>
     <main role="main">
         <header role="banner">
+          <img src = "images/PokemonApp.PNG" class = "projectPic">
+          <div>
             <h1>Test your Pokemon knowledge!</h1>
+            <h3>Can you name 10 pokemon based on just their silhouette</h3>
+          </div>
         </header>
 
-        <section>
-          <button type ="button">View Source</button>
-          <button type ="button">View on Github</button>
+        <section class = "seeProject">
+          <h2>See the Project</h2><br>
+          <button type ="button" class = "pkmn" onclick = "window.location.href = 'https://thinkful-ei-firefly.github.io/Keith-Julian-quiz/'">View Source</button>
+          <button type ="button" class = "pkmn" onclick = "window.location.href = 'https://github.com/thinkful-ei-firefly/Keith-Julian-quiz'">View Github</button>
         </section>
+        <section class = "tools">
+          <h2>Made With</h2>
+          <image src = "images/html-css-js-logos.png" class = "logos"></image>
+        </section>
+
     </main>
     <footer role="content-info">Footer</footer>
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
