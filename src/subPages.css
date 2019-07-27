@@ -25,6 +25,9 @@
 .projectPic{
   width: 50%;
 }
+.drg{
+  max-width: 150px;
+}
 
 
 @media screen and (min-width: 800px){
@@ -35,6 +38,8 @@
   .icon{
     margin-left: 20px;
     margin-right: 20px;
+    width: 200px;
+    height: 200px;
   }
   .item{
     padding-left: 20px;
@@ -45,5 +50,14 @@
   }
   .projectPic{
     max-width: 600px;
+  }
+  .drgHead{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: center;
+  }
+  .drg{
+    max-width: 500px;
   }
 }
