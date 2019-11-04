@@ -26,6 +26,7 @@ const eventHandler = (function(){
       window.location = 'modeling.html';
     });
     $('.goodmeal').on('click', function(){
+      console.log('test')
       window.location = 'goodmeal.html';
     })
   }
