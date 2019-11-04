@@ -25,6 +25,9 @@ const eventHandler = (function(){
     $('.modeling').on('click', function(){
       window.location = 'modeling.html';
     });
+    $('.goodmeal').on('click', function(){
+      window.location = 'goodmeal.html';
+    })
   }
   return {
     pkmnQuiz
